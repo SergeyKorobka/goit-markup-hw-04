@@ -115,6 +115,9 @@ img {
 }
 
 .title {
+  display: block;
+  margin: 0 auto 48px;
+  width: 496px;
   font-size: 56px;
   color: #fff;
   line-height: 1.07;
@@ -124,6 +127,9 @@ img {
 }
 
 .button {
+  display: block;
+  margin: 0 auto 48px;
+  padding: 16px 32px;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -138,6 +144,8 @@ img {
 .button:focus {
   background-color: #404bbf;
 }
+
+/* Benefits */
 
 .small-title {
   font-size: 20px;
