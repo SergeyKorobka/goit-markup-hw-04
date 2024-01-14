@@ -153,12 +153,8 @@ img {
 /* Benefits */
 
 .visually-hidden {
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-   width: 1px;
+  position: fixed;
+  transform: scale(0);
 }
 
 .benefits-list {
@@ -249,7 +245,7 @@ width: calc((100% - 72px) / 4);
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 24px;
+  row-gap: 48px;
 }
 
 
