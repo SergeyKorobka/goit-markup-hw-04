@@ -30,6 +30,11 @@ img {
   margin-right: auto;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* Header */
 
 .header {
@@ -105,7 +110,7 @@ img {
 }
 /* Hero */
 
-.section-one {
+.hero {
   background-color: #2e2f42;
 }
 
@@ -147,7 +152,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.section-three {
+.section-team {
   background-color: #f4f4fd;
 }
 
@@ -164,7 +169,10 @@ img {
   background-color: #ffffff;
 }
 
-.footer-background {
+/* Footer */
+
+.footer {
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 
