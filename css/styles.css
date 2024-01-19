@@ -239,7 +239,7 @@ width: calc((100% - 72px) / 4);
 /* Portfolio */
 
 .portfolio-item {
-  width: 360px;
+  width: calc((100% - 24px * 2) / 3);
 }
 
 .portfolio {
